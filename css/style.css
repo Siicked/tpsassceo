@@ -1,0 +1,73 @@
+* {
+  padding: 0; }
+
+.header {
+  background-color: #221b1b; }
+  .header__container {
+    display: flex;
+    color: white;
+    justify-content: space-around; }
+  .header-titulo {
+    font-size: 35px; }
+
+.header__container-list li {
+  text-decoration: none; }
+  .header__container-list li:hover {
+    color: blueviolet; }
+
+.main {
+  background-color: #221b1b;
+  padding-top: 25px; }
+  .main__container-h1 {
+    justify-content: center;
+    text-align: center;
+    color: green; }
+
+.main__container-h3 {
+  color: green;
+  justify-content: center;
+  text-align: center; }
+
+.main__container img {
+  position: relative;
+  left: 850px; }
+
+.footer {
+  background-color: #221b1b; }
+  .footer__container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-top: 35px; }
+  .footer img {
+    height: 80px; }
+
+.footer__rrss {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  margin-top: 250px; }
+  .footer__rrss .rs-github {
+    color: whitesmoke;
+    font-size: 30px;
+    padding-bottom: 20px; }
+    .footer__rrss .rs-github:hover {
+      color: #55A; }
+  .footer__rrss .rs-twitter {
+    color: whitesmoke;
+    font-size: 30px;
+    padding-bottom: 20px; }
+    .footer__rrss .rs-twitter:hover {
+      color: #55acee; }
+  .footer__rrss .rs-instagram {
+    color: whitesmoke;
+    font-size: 30px;
+    padding-bottom: 20px; }
+    .footer__rrss .rs-instagram:hover {
+      color: #c92d8f; }
+  .footer__rrss .rs-facebook {
+    color: whitesmoke;
+    font-size: 30px;
+    padding-bottom: 20px; }
+    .footer__rrss .rs-facebook:hover {
+      color: #2279e4; }

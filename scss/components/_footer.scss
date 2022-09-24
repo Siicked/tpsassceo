@@ -1,0 +1,39 @@
+.footer {
+    background-color: #221b1b;
+
+&__container{
+    @include holas($space-around)
+    padding-top: 35px
+}
+
+& img {
+    height: 80px;
+}
+}
+
+.footer__rrss {
+    @include holas ($space-around);
+    margin-top: 250px;
+
+    & {
+        $IconSocialMedia: (
+            github: $color-primario,
+            twitter: #55acee,
+            instagram: #c92d8f,
+            facebook: #2279e4,
+        );
+    
+        @each $NameSocialMedia, $ColorIcon in $IconSocialMedia {
+            .rs-#{$NameSocialMedia} {
+            color: whitesmoke;
+            font-size: 30px;
+            padding-bottom: 20px;
+            
+            &:hover {
+                color: $ColorIcon;
+            }
+        }
+    }
+}
+}
+    

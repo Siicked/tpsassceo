@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(34, 27, 27);
+
+
+&__container {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+&-titulo {
+    font-size: 35px;
+}
+}
+.header__container-list li {
+    text-decoration: none;
+
+&:hover {
+    color: blueviolet;
+}
+}

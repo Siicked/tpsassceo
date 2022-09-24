@@ -1,0 +1,16 @@
+@mixin holas($space-around) {
+    display: flex;
+    justify-content: ($space-around);
+    padding-top: 15px;
+}
+
+@mixin letra($fuente-normal, $color-primario) {
+    color: ($color-primario);
+    font-family: ($fuente-normal);
+}
+
+
+
+
+
+
